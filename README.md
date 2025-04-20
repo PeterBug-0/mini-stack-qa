@@ -1,1 +1,1 @@
-# Mini stack QA 
+## Mini stack QA
