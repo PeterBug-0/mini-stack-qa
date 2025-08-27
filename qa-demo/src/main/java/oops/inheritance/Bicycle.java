@@ -1,8 +1,9 @@
-package classes;
+package oops.inheritance;
+
 public class Bicycle {
     // Declare vars
-    public int speed;
-    public int gear;
+    protected int speed;
+    protected int gear;
 
     // Create Constructor
     public Bicycle(int startSpeed, int startGear){
@@ -19,7 +20,11 @@ public class Bicycle {
         speed -= decrement;
     }
 
-    public void speedUp(int increment) {
+        public void speedUp(int increment) {
         speed += increment;
+    }
+
+    public static void main(String[] args) {
+
     }
 }

@@ -1,9 +1,6 @@
-package accessModifiers;
+package oops.accessModifiers;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
-public class LowLevel {
+public class Private {
     public static void printRow(int n, int cols){
         for (int i = 1;i <= cols;i++){
             System.out.printf("%4d", n * i);

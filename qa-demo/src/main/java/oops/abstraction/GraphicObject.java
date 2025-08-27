@@ -1,11 +1,12 @@
-package  classes;
+package oops.abstraction;
+
+// include the abstract keyword
 public abstract class GraphicObject{
-    private int x, y;
+     int x, y;
     void moveTo(int newX, int newY){
         System.out.println("move to x: " + x + " and y: " + y);
     }
-    abstract void draw();
-    abstract void resize();
 
-
+    abstract  void draw();
+    abstract  void resize();
 }

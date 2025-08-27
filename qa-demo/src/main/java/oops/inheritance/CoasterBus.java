@@ -1,4 +1,4 @@
-package classes;
+package oops.inheritance;
 
 public class CoasterBus extends Car {
     public String seatLength;

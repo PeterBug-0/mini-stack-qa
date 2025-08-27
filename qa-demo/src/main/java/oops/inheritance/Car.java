@@ -1,18 +1,20 @@
-package classes;
+package oops.inheritance;
 
 public class Car {
+    // Declare vars
     protected int speed;
     protected String color;
     protected String model;
     protected int year;
 
+    // Create Constructor
     public Car( int carSpeed, String carColor, String carModel, int carYear){
         this.speed = carSpeed;
         this.model = carModel;
         this.color = carColor;
         this.year = carYear;
     }
-
+    // setters and getters
     public void setSpeed(int speed) {
         this.speed = speed;
     }
@@ -53,5 +55,5 @@ public class Car {
         System.out.println(camry.getSpeed());
         System.out.println(camry.getColor());
         System.out.println(camry.getYear());
-    }
+        }
 }

@@ -1,6 +1,6 @@
-package classes;
+package oops.abstraction;
 
-public class Circle extends GraphicObject{
+public class Circle extends GraphicObject {
      void draw() {
         System.out.println("Drawing a circle");
     }
